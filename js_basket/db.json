@@ -1,0 +1,205 @@
+{
+    "weapons": [
+      {
+        "id": 1,
+        "name": "AK-47",
+        "class": "Assault Rifle",
+        "ammo_count": 30,
+        "rate_of_fire": "600 rounds per minute",
+        "price": 500,
+        "country_of_origin": "Russia",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/AK-47_assault_rifle.jpg"
+      },
+      {
+        "id": 2,
+        "name": "M16",
+        "class": "Assault Rifle",
+        "ammo_count": 30,
+        "rate_of_fire": "800 rounds per minute",
+        "price": 600,
+        "country_of_origin": "United States",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/M16A2_noBG.jpg/1200px-M16A2_noBG.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Glock 17",
+        "class": "Pistol",
+        "ammo_count": 17,
+        "rate_of_fire": "1200 rounds per minute",
+        "price": 400,
+        "country_of_origin": "Austria",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Glock_17_%286825676904%29_%D0%B1%D0%B5%D0%B7_%D1%84%D0%BE%D0%BD%D0%B0.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Remington 870",
+        "class": "Sniper Rifle",
+        "ammo_count": 5,
+        "rate_of_fire": "60 rounds per minute",
+        "price": 700,
+        "country_of_origin": "United States",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Remington_Model_700.JPG"
+      },
+      {
+        "id": 5,
+        "name": "Desert Eagle",
+        "class": "Pistol",
+        "ammo_count": 7,
+        "rate_of_fire": "150 rounds per minute",
+        "price": 1000,
+        "country_of_origin": "United States",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/TM_Desert_Eagle_CHROME_STAINLESS_GBB.jpg"
+      },
+      {
+        "id": 6,
+        "name": "MP5",
+        "class": "Submachine Gun",
+        "ammo_count": 30,
+        "rate_of_fire": "800 rounds per minute",
+        "price": 750,
+        "country_of_origin": "Germany",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/MP5.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Barrett M82",
+        "class": "Sniper Rifle",
+        "ammo_count": 10,
+        "rate_of_fire": "50 rounds per minute",
+        "price": 2000,
+        "country_of_origin": "United States",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Barrett-M82A1-Independence-Day-2017-IZE-048-white.jpg"
+      },
+      {
+        "id": 8,
+        "name": "M1911",
+        "class": "Pistol",
+        "ammo_count": 7,
+        "rate_of_fire": "400 rounds per minute",
+        "price": 450,
+        "country_of_origin": "United States",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/M1911A1.png"
+      },
+      {
+        "id": 9,
+        "name": "S&W Model 500",
+        "class": "Revolver",
+        "ammo_count": 5,
+        "rate_of_fire": "150 rounds per minute",
+        "price": 1200,
+        "country_of_origin": "United States",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/S%26W500_noBG.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Uzi",
+        "class": "Submachine Gun",
+        "ammo_count": 32,
+        "rate_of_fire": "600 rounds per minute",
+        "price": 550,
+        "country_of_origin": "Israel",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Uzi_of_the_israeli_armed_forces.jpg"
+      },
+      {
+        "id": 11,
+        "name": "H&K G36",
+        "class": "Assault Rifle",
+        "ammo_count": 30,
+        "rate_of_fire": "750 rounds per minute",
+        "price": 800,
+        "country_of_origin": "Germany",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Gewehr_G36_noBG.png"
+      },
+      {
+        "id": 12,
+        "name": "FN SCAR",
+        "class": "Assault Rifle",
+        "ammo_count": 20,
+        "rate_of_fire": "600 rounds per minute",
+        "price": 1100,
+        "country_of_origin": "Belgium",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/FN_SCAR-L_-_FN_SCAR-H.png"
+      },
+      {
+        "id": 13,
+        "name": "Steyr AUG",
+        "class": "Assault Rifle",
+        "ammo_count": 30,
+        "rate_of_fire": "650 rounds per minute",
+        "price": 900,
+        "country_of_origin": "Austria",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/AUG_A1_508mm_04.jpg"
+      },
+      {
+        "id": 14,
+        "name": "FN P90",
+        "class": "Submachine Gun",
+        "ammo_count": 50,
+        "rate_of_fire": "900 rounds per minute",
+        "price": 1200,
+        "country_of_origin": "Belgium",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/P90--.png"
+      },
+      {
+        "id": 15,
+        "name": "SIG Sauer P226",
+        "class": "Pistol",
+        "ammo_count": 15,
+        "rate_of_fire": "500 rounds per minute",
+        "price": 549,
+        "country_of_origin": "Switzerland",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Pistole_SIG_Sauer_P226_S.jpg/1200px-Pistole_SIG_Sauer_P226_S.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Beretta 92",
+        "class": "Pistol",
+        "ammo_count": 15,
+        "rate_of_fire": "600 rounds per minute",
+        "price": 600,
+        "country_of_origin": "Italy",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Beretta_92S.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Colt Python",
+        "class": "Revolver",
+        "ammo_count": 6,
+        "rate_of_fire": "100 rounds per minute",
+        "price": 899,
+        "country_of_origin": "United States",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flickr_-_~Steve_Z~_-_Colt_Target_Python_%281%29.jpg/1200px-Flickr_-_~Steve_Z~_-_Colt_Target_Python_%281%29.jpg"
+      },
+      {
+        "id": 18,
+        "name": "H&K USP",
+        "class": "Pistol",
+        "ammo_count": 13,
+        "rate_of_fire": "600 rounds per minute",
+        "price": 650,
+        "country_of_origin": "Germany",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/First-year_H%26K_USP_9mm_%2832415150000%29_modified.png"
+      },
+      {
+        "id": 19,
+        "name": "Browning Hi-Power",
+        "class": "Pistol",
+        "ammo_count": 13,
+        "rate_of_fire": "600 rounds per minute",
+        "price": 750,
+        "country_of_origin": "Belgium",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/FN_Hi_Power.jpg/1200px-FN_Hi_Power.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Combat Knife",
+        "class": "Combat knife",
+        "ammo_count": 0,
+        "rate_of_fire": "N/A",
+        "price": 100,
+        "country_of_origin": "United States",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Damascus_Bowie.jpg/1200px-Damascus_Bowie.jpg"
+      }
+    ]
+  }
+  

@@ -1,0 +1,40 @@
+:root {
+    --gray-border: #ececec;
+    --gray-text-color: #7E7E7E;
+    --green-light-color: rgb(59, 183, 126);
+}
+@font-face {
+    font-family: "lato-light";
+    src: url("assets/fonts/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "lato-bold";
+    src: url("assets/fonts/Lato-Black.ttf");
+}
+@font-face {
+    font-family: "qicksand-bold";
+    src: url("assets/fonts/Quicksand-Bold.ttf");
+}
+@font-face {
+    font-family: "qicksand-medium";
+    src: url("assets/fonts/Quicksand-Medium.ttf");
+}
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+
+}
+
+a {
+    text-decoration: none;
+}

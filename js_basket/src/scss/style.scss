@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+  overflow-x: hidden;
+}
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.navigation {
+  background-image: url("../img/nav-background.png");
+  background-position: center;
+  background-size: 100% 1200%;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border-bottom: 5px solid black;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  color: white;
+  font-size: 25px;
+}
+.nav-item {
+  display: flex;
+  cursor: pointer;
+  transition: 0.3s ease;
+  &:hover {
+    color: goldenrod;
+  }
+}
+.active {
+  color: goldenrod;
+}
+.weapons-block {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+.weapon-types {
+  display: flex;
+  flex: 1;
+  height: auto;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.weapon-item {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  background-color: black;
+  img {
+    width: 300px;
+    height: 180px;
+    border: 2px solid red;
+    background-color: white;
+    object-position: center;
+  }
+  .weapon-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    border: 2px solid red;
+    p {
+      color: wheat;
+      font-size: 16px;
+      border-bottom: 1px solid black;
+    }
+    button {
+      background-color: green;
+      width: 100px;
+      height: 50px;
+      align-self: center;
+      margin-top: 10px;
+      border-radius: 10px;
+      color: wheat;
+      cursor: pointer;
+    }
+  }
+}
+.weapon-basket {
+  display: flex;
+  width: 500px;
+  height: min-content;
+  border: 2px solid red;
+  margin-top: 20px;
+  background-color: black;
+  flex-direction: column;
+  color: wheat;
+  gap: 5px;
+  min-height: 600px;
+  margin-right: 20px;
+  position: sticky;
+  top: 0;
+  padding-bottom: 90px;
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px solid red;
+  }
+}
+.basket-content {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  gap: 10px;
+  flex-direction: column;
+  
+}
+.basket-item {
+  display: flex;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  border: 2px solid red;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  img {
+    width: 125px;
+    height: 65px;
+    border: 2px solid red;
+    background-color: white;
+  }
+  .basket-gun-info {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: start;
+  }
+  .basket-manipulation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    button {
+      width: 60px;
+      height: 27px;
+      cursor: pointer;
+      &:nth-child(1) {
+        background-color: green;
+      }
+      &:nth-child(2) {
+        background-color: red;
+      }
+    }
+  }
+}
+.remove-block {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: red;
+  border-radius: 50%;
+}
+.total-price {
+  display: flex;
+  border-top: 2px solid red;
+  width: 100%;
+  justify-content: space-between;
+  color: wheat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  align-items: center;
+  p {
+    font-size: 20px;
+  }
+  button {
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navigation {
+    font-size: 20px;
+    gap: 40px;
+  }
+}
